@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "slopeconnector_surface_refine:block/model_block"}
+  }
+}

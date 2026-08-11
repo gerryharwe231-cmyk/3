@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "slopeconnector_surface_refine",
+  "version": "${version}",
+  "name": "Slope Connector Model Pipeline — 0.9.35.2 Outline Mixin Target Fix",
+  "description": "0.9.35 geometry/performance behavior retained; fixes ArcRibbonProxyOutlineMixin by injecting Minecraft AbstractBlock.getOutlineShape and guarding the hook to ARC_RIBBON proxy holders only.",
+  "authors": [
+    "OpenAI"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.slopeconnector.surface.SurfaceRefineMod",
+      "com.slopeconnector.model.ModelSystemMod"
+    ],
+    "client": [
+      "com.slopeconnector.surface.client.SurfaceRefineClient",
+      "com.slopeconnector.model.client.ModelSystemClient"
+    ]
+  },
+  "mixins": [
+    "slopeconnector_surface_refine.mixins.json",
+    "slopeconnector_elevation.mixins.json"
+  ],
+  "jars": [
+    {
+      "file": "META-INF/jars/slopeconnector-0.9.19.jar"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "slopeconnector_connected": "=0.9.19-uv-unwrap-smooth-endpoint"
+  },
+  "suggests": {
+    "conquest": ">=1.5.2"
+  }
+}

@@ -1,0 +1,26 @@
+0.9.35 Physical Landings / Real Trim / Performance — local verification
+
+Passed:
+- all legacy 0.9.23–0.9.34.1 regression suites
+- 0.9.34.1 Mixin package isolation regression
+- explicit physical horizontal start/end landing source checks
+- arcSide/riseSide fallback removal check
+- actual javac + runtime SmoothElevationHarness against bundled 0.9.17 ArcPath API
+- multiple start samples physically level
+- multiple end samples physically level
+- middle grade exists and arc distance remains monotonic
+- final auto trim indexes final actual prism geometry
+- final trim visual triangulates complete Boolean remainder surfaces
+- subtraction internal partition culling
+- cut-plane classification for diagonal cut faces
+- ARC_TRIM collision contains remaining source only; arc volume is not merged into trim collision
+- collision-only ArcRibbon proxy has empty outline/raycast shape
+- real group-member break reassigns render leader and invalidates stale visual cache
+- dense model/template owner radius 48
+- wide/thick tile LOD: >=9 uses >=1/2 module slice, >=16 uses one slice/module
+- existing group/cache/model/conquest/endpoint/UV/geometry regressions
+- nested ConvexGeometry triangulate/contains/Plane.side/ArcTrim Triangle APIs verified with javap
+- JSON and Java delimiter/parser-level checks
+
+Environment limitation:
+The current container does not provide a complete mapped Fabric/Minecraft Gradle dependency classpath, so final Loom clean build still needs the included GitHub Actions workflow or another complete Fabric 1.20.1 development environment.

@@ -1,0 +1,17 @@
+0.9.35.2 Outline Mixin Target Fix — local verification
+
+Passed:
+- all existing 0.9.23–0.9.35.1 regression suites
+- ArcRibbonProxyOutlineMixin targets AbstractBlock, not ArcRibbonBlock
+- getOutlineShape injection is guarded to ARC_RIBBON only
+- getOutlineShape injection uses require=0 startup safety
+- no remaining direct ArcRibbonBlock inherited-method injection in surface mixin package
+- ArcRibbonGroupBreakMixin remains on AbstractBlock.onStateReplaced
+- Java parser-level syntax check
+
+Source of the crash addressed:
+- latest crash reports InvalidInjectionException because getOutlineShape was searched directly on ArcRibbonBlock
+- Minecraft/Yarn 1.20.1 declares getOutlineShape on AbstractBlock
+
+Environment limitation:
+Full Fabric/Loom clean build still requires the included GitHub Actions workflow or another complete Fabric dev environment.

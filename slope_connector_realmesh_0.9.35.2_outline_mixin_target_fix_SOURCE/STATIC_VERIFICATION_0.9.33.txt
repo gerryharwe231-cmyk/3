@@ -1,0 +1,21 @@
+0.9.33 Endpoint Trim / Railing / Z / Performance — local verification
+
+Passed:
+- all existing 0.9.23 → 0.9.32 regression suites
+- widened/thickened start + end endpoint tiles are indexed by FinalModelArcTrim
+- trim collision union still includes exact endpoint/arc cutter volume
+- connected endpoint arc-facing BakedQuad cap culling
+- pure-white group render leader stamped during generation
+- white-template followers rejected before BER
+- one white render leader draws complete group
+- white-template directional light cache
+- ModelTemplateArcRenderer cache match is O(1) on current entity revision/state
+- ModelArcRenderer cache match is O(1) on current entity revision/state
+- Z-axis postprocessing discovery/search radius regression
+- UP/DOWN + same-height endpoint rejection remains enabled
+- JSON resources parse
+- Java brace/parser-level syntax check
+- embedded 0.9.10/0.9.17/0.9.19 API checks
+
+Environment limitation:
+A complete Fabric/Loom dependency cache is not available locally, so the final Gradle clean build still needs the included GitHub Actions workflow or another normal Fabric development environment.

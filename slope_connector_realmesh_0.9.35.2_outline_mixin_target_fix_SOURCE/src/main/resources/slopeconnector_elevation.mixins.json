@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.slopeconnector.elevation.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ArcRibbonElevationContextMixin"
+  ],
+  "injectors": {"defaultRequire": 1}
+}

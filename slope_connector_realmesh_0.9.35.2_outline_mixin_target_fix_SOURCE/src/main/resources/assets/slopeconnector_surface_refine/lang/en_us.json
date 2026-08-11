@@ -1,0 +1,6 @@
+{
+  "block.slopeconnector_surface_refine.model_block": "Model Block",
+  "item.slopeconnector_surface_refine.model_render_wand": "Model Render Wand",
+  "key.slopeconnector_surface_refine.open_panel": "Open connector panel (G)",
+  "category.slopeconnector_surface_refine": "Slope Connector"
+}

@@ -1,0 +1,78 @@
+{
+  "file": "ConquestReforged-fabric-1.20.1-1.5.2(1).jar",
+  "sha256": "73c681e0425a5d3ca4dc91a635cf119454ddd06aabe59ec6feda579566451dde",
+  "relevant_blockstate_total": 1791,
+  "counts": {
+    "four_way": 771,
+    "facing": 484,
+    "axis": 374,
+    "other": 162
+  },
+  "examples": {
+    "four_way": [
+      "acacia_wood_beam_wall",
+      "acacia_wood_plank_fence",
+      "acacia_wood_plank_wall",
+      "alder_wood_beam_wall",
+      "alder_wood_plank_wall",
+      "apple_wood_beam_wall",
+      "apple_wood_plank_wall",
+      "arabian_arched_window_pane",
+      "arched_brown_wooden_frame_window_pane",
+      "arched_green_wooden_frame_window_pane",
+      "arched_white_wooden_frame_window_pane",
+      "arched_yellow_wooden_frame_window_pane"
+    ],
+    "facing": [
+      "ash_wicker_fence_half_thin_vertical_corner",
+      "ash_wicker_fence_half_thin_vertical_quarter",
+      "ash_wicker_fence_half_thin_vertical_slab",
+      "ash_wicker_fence_thin_vertical_corner",
+      "ash_wicker_fence_thin_vertical_quarter",
+      "ash_wicker_fence_thin_vertical_slab",
+      "asian_acacia_wood_fence_gate",
+      "birch_wicker_fence_half_thin_vertical_corner",
+      "birch_wicker_fence_half_thin_vertical_quarter",
+      "birch_wicker_fence_half_thin_vertical_slab",
+      "birch_wicker_fence_thin_vertical_corner",
+      "birch_wicker_fence_thin_vertical_quarter"
+    ],
+    "axis": [
+      "acacia_wood_plank_balustrade",
+      "alder_wood_plank_balustrade",
+      "andesite_balustrade",
+      "apple_wood_plank_balustrade",
+      "ash_wood_plank_balustrade",
+      "aspen_wood_plank_balustrade",
+      "bamboo_wood_plank_balustrade",
+      "barnacle_covered_palm_wood_plank_balustrade",
+      "basalt_balustrade",
+      "beech_wood_plank_balustrade",
+      "birch_wood_plank_balustrade",
+      "black_concrete_balustrade"
+    ],
+    "other": [
+      "birch_wood_railing_small_pillar",
+      "black_baroque_wall",
+      "black_wall_and_magenta_cornice",
+      "blue_baroque_wallpaper",
+      "blue_painted_wall_pillar",
+      "blue_painted_wall_slab",
+      "blue_painted_wall_small_arch",
+      "blue_painted_wall_small_window",
+      "blue_painted_wall_sphere",
+      "blue_wallpaper",
+      "bone_wall_with_skeleton",
+      "bone_wall_with_skeleton_slab"
+    ]
+  },
+  "inspected_runtime_classes": [
+    "com.conquestrefabricated.content.blocks.block.Fence",
+    "com.conquestrefabricated.content.blocks.block.glass.Pane",
+    "com.conquestrefabricated.content.blocks.block.decor.FenceLayered",
+    "com.conquestrefabricated.content.blocks.block.WallNew",
+    "com.conquestrefabricated.content.blocks.block.WallOld",
+    "com.conquestrefabricated.content.blocks.block.Balustrade",
+    "com.conquestrefabricated.content.blocks.block.decor.Railings"
+  ]
+}

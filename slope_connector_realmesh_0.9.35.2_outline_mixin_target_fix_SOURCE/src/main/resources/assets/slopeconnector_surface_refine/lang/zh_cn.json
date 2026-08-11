@@ -1,0 +1,6 @@
+{
+  "block.slopeconnector_surface_refine.model_block": "模型方块",
+  "item.slopeconnector_surface_refine.model_render_wand": "模型渲染杖",
+  "key.slopeconnector_surface_refine.open_panel": "打开连接面板（G）",
+  "category.slopeconnector_surface_refine": "坡度连接器"
+}

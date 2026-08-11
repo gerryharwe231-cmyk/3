@@ -1,0 +1,20 @@
+0.9.32 Final Trim / Endpoint Priority / Railing Caps — local verification
+
+Passed:
+- all existing 0.9.23–0.9.31 regression suites
+- deferred embedded auto trim uses Mixin Redirect, without toggling the global ArcAutoTrimSettings
+- final trim runs after endpoint binding and before collision proxy rebuild
+- final trim uses final ArcStationFrames width/thickness
+- stair/slab/multipart non-BE shapes enter VoxelShape-based trim
+- ARC_TRIM collision includes both trimmed source remainder and final arc volume in that cell
+- endpoint priority order: stair/slab > connected profile > ordinary seam
+- one cross-section mapping is chosen once and persisted to both endpoints
+- endpoint BER no longer re-resolves ArcCrossSectionMapping
+- connected profiles cull hidden q=0/q=1 repeated-module caps
+- connected profiles retain partial lateral/vertical boundary faces
+- embedded ConvexGeometry / VoxelShapeUtil / ArcAutoTrim.WorldPrism / ArcTrimBlockEntity APIs verified with javap
+- JSON and Java structure checks
+- Java parser-level syntax check
+
+Environment limitation:
+The current container cannot resolve external Gradle/Fabric/Minecraft dependencies, so final Loom clean build still needs the included Actions workflow or a normal Fabric dev environment.
